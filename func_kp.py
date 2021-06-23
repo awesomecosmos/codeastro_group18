@@ -14,11 +14,10 @@ def luminosity_calculator(abs_mag):
   -------
   
   luminosity: int
-    luminosity of an object in Watts
+    luminosity of an object in solar luminosities
   
  '''
   #constants
-  luminosity_sun = 3.68e26 #Watts
   abs_mag_sun = 4.83
   
-  return luminosity_sun * 10**((abs_mag_sun - abs_mag) / 2.5) 
+  return 10**((abs_mag_sun - abs_mag) / 2.5) 

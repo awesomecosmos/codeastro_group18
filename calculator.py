@@ -24,7 +24,7 @@ gal_lum = luminosity_calculator(gal_abs_mag)
 #step4. calculate the mass of the galaxy
 gal_mass = mass_galaxy(gal_lum, exponent_factor)
 
-np.savetxt(galaxy_mass_out.txt, gal_mass)
+np.savetxt('galaxy_mass_out.table', gal_mass)
 
 
 

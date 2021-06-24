@@ -1,0 +1,23 @@
+# Maria Babakhanyan Stone
+# Code Astro Workshop 2021
+
+# Group project : group18
+
+# Table of example data
+
+
+#ID                       # Object ID
+#Band                     # 1 = H band, 2 = Ks band
+#m_measured               # measured apparent magnitude of galaxy in Ks infrared band
+#delta_ZP                 # ZP correction based on 2MASS standard stars
+#redshift                 # redshift of the galaxy (used in distance calculation)
+#D_L                      # Luminosity distance, calculated with NED, using H0=70, omega_m=0.3, Flat universe. Units = Megaparsecs
+
+#ID    #Band    #m_measured    #delta_ZP    #redshift   #D_L
+#                                                       #Mpc
+1300   1        19.50          -0.561       1.251       8716.1
+1404   1        20.27          -0.567       1.082       7283.4
+2151   1        20.45          0.44         1.004       6639.7
+2308   2        20.90          -1.182       1.700       12727.5
+
+# end

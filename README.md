@@ -18,6 +18,11 @@ The current version of the calculator only calculates for infrared bands H and K
 The calculation does not take into account currently the various corrections to the absolute magnitude which may be required for some projects (e.g. k-correction, atmospheric extinction correction).
 The magnitudes are in the AB magnitude system.
 
+Installation instructions
+-------------------------
+
+
+
 Example
 ----------
 

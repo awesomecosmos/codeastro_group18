@@ -1,10 +1,23 @@
 def mass_galaxy(luminosity_galaxy, exponent_factor):
-  """
+  '''
   This function calculates the mass of the galaxy, based on a mass-to-light ratio.
-  The unit of the luminosity of the galaxy is solar luminosities (L_solar).
-  The unit of the mass of the galaxy is solar mass (M_solar).
-  The exponent factor is unitless.
-  """
+  
+  Parameters
+  ----------
+  
+  luminosity_galaxy: int
+    luminosity of the object (units of solar luminosities)
+    
+  exponent_factor: int
+    exponent factor (alpha) value (unitless) in the mass-to-light ratio (M/L = L**alpha)
+  
+  Returns
+  -------
+  
+  mass_galaxy: int
+    mass of the object in solar masses
+ '''
+  
   
   mass_galaxy = luminosity_galaxy**(exponent_factor+1)
   

@@ -20,7 +20,7 @@ The magnitudes are in the AB magnitude system.
 
 Installation instructions
 -------------------------
-
+ 
 
 
 Example
